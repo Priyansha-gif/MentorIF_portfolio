@@ -159,12 +159,48 @@ img {
   top: 3rem;
 }
 
+
 /*Home*/
 .l-main {
   height: calc(100vh - 3rem);
   background-color: var(--black-color);
 }
 
+.about {
+  padding-top: 5%;
+  color:cornsilk;
+}
+.about .title{
+  font-size: 40px;
+  padding-left: 30px;
+  color: peru;
+  margin-top: 25px;
+}
+
+.about .column{
+  padding-left: 30px;
+  padding-right: 10%;
+  justify-content: space-between;
+}
+
+.about .about-content a{
+    display: inline-block;
+    background: peru;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid peru;
+    transition: all 0.3s ease;
+}
+
+.about .about-content a:hover{
+  background: none;
+  color:peru;
+}
+
+.about 
 .home {
   display: -ms-grid;
   display: grid;
